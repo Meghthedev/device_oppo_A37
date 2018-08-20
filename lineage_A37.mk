@@ -24,10 +24,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-# Vendor security patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2016-09-01
-
 PRODUCT_NAME := lineage_A37
 BOARD_VENDOR := oppo
 PRODUCT_DEVICE := A37

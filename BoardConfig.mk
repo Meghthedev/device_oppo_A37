@@ -76,6 +76,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_NO_SECURE_DISCARD := true
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2016-09-01
+
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
