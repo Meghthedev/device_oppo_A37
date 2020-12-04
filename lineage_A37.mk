@@ -16,7 +16,7 @@
 $(call inherit-product, device/oppo/A37/full_A37.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
