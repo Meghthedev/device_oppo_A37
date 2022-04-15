@@ -4,6 +4,9 @@ persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.fluence.speaker=false
 
+# Bluetooth
+bluetooth.device.default_name=Redmi 2
+
 # Camera
 persist.camera.cpp.duplication=false
 persist.camera.hal.debug.mask=0
