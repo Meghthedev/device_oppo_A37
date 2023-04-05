@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     libcamera_shim \
     camera.msm8916 \
-    Snap
+    Aperture
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-impl \
