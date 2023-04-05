@@ -83,7 +83,6 @@ PRODUCT_PACKAGES += \
     Aperture
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
     camera.device@1.0-impl
 
@@ -148,8 +147,6 @@ PRODUCT_COPY_FILES += \
 # Sensor HAL
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    accelcal \
-    AccCalibration \
     calmodule.cfg \
     sensors.msm8916
 
