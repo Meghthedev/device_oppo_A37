@@ -20,6 +20,7 @@ ro.charger.disable_init_blank=true
 #Display
 ro.surface_flinger.vsync_event_phase_offset_ns=4000000
 ro.surface_flinger.vsync_sf_event_phase_offset_ns=8000000
+ro.hwui.render_ahead=20
 
 # LMKD
 ro.lmk.critical_upgrade=true
